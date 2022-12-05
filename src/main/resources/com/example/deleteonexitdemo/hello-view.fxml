@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="221.0"
+            prefWidth="386.0" style="-fx-border-color: grey; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/18"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.deleteonexitdemo.HelloController">
+   <Button layoutX="14.0" layoutY="170.0" mnemonicParsing="false" onAction="#makeDir" text="Make Dircectory"
+           AnchorPane.leftAnchor="14.0">
+      <opaqueInsets>
+         <Insets/>
+      </opaqueInsets>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </padding>
+   </Button>
+   <Button layoutX="265.0" layoutY="170.0" mnemonicParsing="false" onAction="#deleteDir" prefHeight="37.0"
+           prefWidth="107.0" style="-fx-border-color: grey;" text="Delete Directory" AnchorPane.rightAnchor="14.0">
+      <opaqueInsets>
+         <Insets/>
+      </opaqueInsets>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </padding>
+   </Button>
+   <Text fx:id="txtMon" layoutX="35.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text"
+         textAlignment="CENTER" wrappingWidth="322.13671875" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="34.0">
+      <font>
+         <Font name="Calibri" size="18.0"/>
+      </font>
+   </Text>
+</AnchorPane>
